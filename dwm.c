@@ -1790,6 +1790,10 @@ tile(Monitor *m)
 	Client *c;
 
 	for (n = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), n++);
+  if (n == 1)
+    m->gappx = 0;
+  else 
+    m->gappx = gappx;
 	if (n == 0)
 		return;
         if (m->drawwithgaps) { /* draw with fullgaps logic */
