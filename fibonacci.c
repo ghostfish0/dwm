@@ -1,5 +1,3 @@
-#include "config.h"
-
 void
 fibonacci(Monitor *mon, int s) {
 	unsigned int i, n, nx, ny, nw, nh;
@@ -59,11 +57,6 @@ fibonacci(Monitor *mon, int s) {
       mon->gappx = gappx;
 		resize(c, nx + mon->gappx, ny, nw - 2 * c->bw - mon->gappx, nh - 2 * c->bw, False);
 	}
-}
-
-void
-dwindle(Monitor *mon) {
-	fibonacci(mon, 1);
 }
 
 void
