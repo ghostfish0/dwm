@@ -1072,7 +1072,7 @@ killclient(const Arg *arg)
 }
 
 void
-loadxrdb()
+loadxrdb(void)
 {
   Display *display;
   char * resm;
