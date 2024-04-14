@@ -1,0 +1,65 @@
+[
+  {
+    "arguments": [
+      "/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.5\"",
+      "-DXINERAMA",
+      "drw.c"
+    ],
+    "directory": "/home/tinnguyen/Downloads/dwm",
+    "file": "/home/tinnguyen/Downloads/dwm/drw.c"
+  },
+  {
+    "arguments": [
+      "/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.5\"",
+      "-DXINERAMA",
+      "dwm.c"
+    ],
+    "directory": "/home/tinnguyen/Downloads/dwm",
+    "file": "/home/tinnguyen/Downloads/dwm/dwm.c"
+  },
+  {
+    "arguments": [
+      "/sbin/cc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_XOPEN_SOURCE=700L",
+      "-DVERSION=\"6.5\"",
+      "-DXINERAMA",
+      "util.c"
+    ],
+    "directory": "/home/tinnguyen/Downloads/dwm",
+    "file": "/home/tinnguyen/Downloads/dwm/util.c"
+  }
+]
