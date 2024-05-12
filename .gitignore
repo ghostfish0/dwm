@@ -1,3 +1,7 @@
 *.o
 *.rej
 dwm
+.cache/
+.cache/clangd/index
+.cache/clangd/index
+.cache/clangd/index
